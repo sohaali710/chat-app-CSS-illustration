@@ -1,0 +1,134 @@
+:root {
+    /* Text */
+    --pale-violet: hsl(276, 100%, 81%);
+
+    --moderate-violet: hsl(276, 55%, 52%);
+    --desaturated-dark-violet: hsl(271, 15%, 43%);
+
+    --grayish-blue: hsl(206, 6%, 79%);
+    --very-dark-desaturated-violet: hsl(271, 36%, 24%);
+    --dark-grayish-violet: hsl(270, 7%, 64%);
+
+    /* Gradients */
+    --light-magenta: hsl(293, 100%, 63%);
+    --light-violet: hsl(264, 100%, 61%);
+
+    /* Secondary */
+    --white: hsl(0, 0%, 100%);
+    --light-grayish-violet: hsl(270, 20%, 96%);
+    --very-dark-desaturated-violet: hsl(271, 36%, 24%);
+    --very-light-magenta: hsl(289, 100%, 72%);
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+
+    height: 100vh;
+    background-color: var(--light-grayish-violet);
+}
+
+.chat-interface {
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+    top: 0;
+
+    overflow-x: hidden;
+}
+
+.chat-interface .left-shape {
+    width: 35%;
+    height: 88%;
+    /* background: linear-gradient(to right, var(--light-violet), var(--light-magenta)); */
+    background-color: var(--light-violet);
+
+    border-radius: 0 0 50% 50%;
+
+    position: relative;
+    top: 0;
+    left: -10%;
+    z-index: -1;
+}
+
+.chat-interface .right-shape {
+    width: 35%;
+    height: 80%;
+    background-color: var(--grayish-blue);
+
+    border-radius: 50% 50% 0 0;
+
+    position: absolute;
+    bottom: 0;
+    left: 80%;
+    z-index: -1;
+}
+
+
+
+main {
+    width: 65%;
+    height: 100%;
+
+    /* background-color: beige; */
+
+    position: absolute;
+    top: 0;
+    left: 54%;
+
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.chat-interface .chat-app {
+    width: 24%;
+    height: 66%;
+
+    background-color: var(--light-grayish-violet);
+
+    border: 8px solid var(--white);
+    border-radius: 26px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.chat-interface .chat-app header {
+    height: 13%;
+    background: linear-gradient(to right, var(--light-violet), var(--light-magenta));
+
+    border-radius: 22px 22px 5px 5px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.chat-interface .chat-app header .white-section {
+    width: 50%;
+    height: 25%;
+    background-color: var(--white);
+
+    border-radius: 0 0 10px 10px;
+}
+
+
+
+.chat-interface .text {
+    width: 52%;
+}
+
+.chat-interface .text h1 {
+    color: var(--very-dark-desaturated-violet);
+    font-weight: 700;
+
+    margin-bottom: 30px;
+}
+
+.chat-interface .text p {
+    color: var(--dark-grayish-violet);
+    font-weight: 400;
+}
