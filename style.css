@@ -44,7 +44,8 @@ body {
 .chat-interface .left-shape {
     width: 35%;
     height: 88%;
-    background: linear-gradient(to right, var(--light-violet), var(--light-magenta));
+    background: linear-gradient(to top, var(--light-violet), var(--light-magenta));
+    /* background: linear-gradient(to right, var(--light-violet), var(--light-magenta)); */
     /* background-color: var(--light-violet); */
 
     border-radius: 0 0 50% 50%;
