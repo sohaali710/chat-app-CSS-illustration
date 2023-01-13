@@ -42,7 +42,7 @@ body {
 }
 
 .chat-interface .left-shape {
-    width: 32%;
+    width: 35%;
     height: 88%;
     background: linear-gradient(to right, var(--light-violet), var(--light-magenta));
     /* background-color: var(--light-violet); */
@@ -56,20 +56,20 @@ body {
 }
 
 .chat-interface .right-shape {
-    width: 32%;
-    height: 80%;
+    width: 35%;
+    height: 85%;
     background-color: #eee;
 
     border-radius: 50% 50% 0 0;
 
     position: fixed;
     bottom: 0px;
-    left: 81%;
+    left: 77%;
     z-index: -1;
 }
 
 main {
-    width: 68%;
+    width: 58%;
     height: 100%;
 
     position: absolute;
@@ -327,7 +327,7 @@ main {
 
 /* right paragraph*/
 .chat-interface .right-paragraph {
-    width: 49%;
+    width: 56%;
 }
 
 .chat-interface .right-paragraph h1 {
@@ -348,17 +348,17 @@ main {
 /* media queries */
 @media (max-width:992px) {
     .chat-interface .left-shape {
-        width: 45%;
+        width: 50%;
         height: 85%;
 
-        left: -18%;
+        left: -22%;
     }
 
     .chat-interface .right-shape {
-        width: 45%;
+        width: 50%;
         height: 85%;
 
-        left: 83%;
+        left: 75%;
     }
 
     main {
@@ -368,15 +368,17 @@ main {
 
 @media (max-width:768px) {
     .chat-interface .left-shape {
-        width: 55%;
-        height: 80%;
+        width: 60%;
+        height: 70%;
+
+        left: -22%;
     }
 
     .chat-interface .right-shape {
-        width: 50%;
-        height: 80%;
+        width: 70%;
+        height: 65%;
 
-        left: 70%;
+        left: 65%;
     }
 
     main {
