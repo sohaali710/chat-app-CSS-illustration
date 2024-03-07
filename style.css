@@ -87,8 +87,8 @@ main {
 
 
 .chat-interface main .chat-app {
-    width: 218px;
-    height: 450px;
+    width: 240px;
+    height: 490px;
 
     background-color: var(--light-grayish-violet);
 
